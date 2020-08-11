@@ -1,0 +1,4 @@
+Virtual Server,Availability,State,Reason,Destination
+acme.com,offline,enabled,The children pool member(s) are down,10.1.1.2
+foo.com,available,enabled,The virtual server is available,10.100.11.15
+hamhamspam.com,offline,enabled,The children pool member(s) are down,10.200.8.17
