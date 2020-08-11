@@ -1,0 +1,15 @@
+Ltm::Virtual Server: acme.com
+  Availability     : offline
+  State            : enabled
+  Reason           : The children pool member(s) are down
+  Destination      : 10.1.1.2:80
+Ltm::Virtual Server: foo.com
+  Availability     : available
+  State            : enabled
+  Reason           : The virtual server is available
+  Destination      : 10.100.11.15:80
+Ltm::Virtual Server: hamhamspam.com
+  Availability     : offline
+  State            : enabled
+  Reason           : The children pool member(s) are down
+  Destination      : 10.200.8.17:443
